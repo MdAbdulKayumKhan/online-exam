@@ -1,9 +1,12 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
+import NavItems from '../NavItems/NavItems';
 
 const About = () => {
     return (
         <div>
-            <h2>this is about page</h2>
+            <NavItems></NavItems>
+            <Footer></Footer>
         </div>
     );
 };

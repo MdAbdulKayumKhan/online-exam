@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "BCS Job Math",
+    "pric": 2000,
+    "duration": "180 hr",
+    "lecture": 90,
+    "modelTest": 12,
+    "offerPrice": 1499,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Bank Job Math",
+    "pric": 2500,
+    "duration": "200 hr",
+    "lecture": 90,
+    "modelTest": 12,
+    "offerPrice": 1499,
+    "img": ""
+  },
+  {
+    "id": 3,
+    "name": "Primary Job Math",
+    "pric": 1500,
+    "duration": "120 hr",
+    "lecture": 60,
+    "modelTest": 12,
+    "offerPrice": 999,
+    "img": ""
+  },
+  {
+    "id": 4,
+    "name": "NTRC Job Math",
+    "pric": 3000,
+    "duration": "180 hr",
+    "lecture": 90,
+    "modelTest": 12,
+    "offerPrice": 1499,
+    "img": ""
+  },
+  {
+    "id": 5,
+    "name": "BSC Preliminary Model Test",
+    "pric": 1000,
+    "duration": "10 hr",
+    "lecture": 10,
+    "modelTest": 11,
+    "offerPrice": 599,
+    "img": ""
+  },
+  {
+    "id": 6,
+    "name": "BCS GK",
+    "pric": 1000,
+    "duration": "100 hr",
+    "lecture": 60,
+    "modelTest": 10,
+    "offerPrice": 499,
+    "img": ""
+  },
+  {
+    "id": 7,
+    "name": "English Grammer",
+    "pric": 2000,
+    "duration": "180 hr",
+    "lecture": 90,
+    "modelTest": 12,
+    "offerPrice": 1499,
+    "img": ""
+  },
+  {
+    "id": 8,
+    "name": "English Literature",
+    "pric": 1000,
+    "duration": "80 hr",
+    "lecture": 50,
+    "modelTest": 10,
+    "offerPrice": 499,
+    "img": ""
+  }
+]
