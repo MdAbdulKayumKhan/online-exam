@@ -1,8 +1,8 @@
 import React from 'react';
 import './Banner.css';
 import banner01 from '../../images/banner/banner-01.jpg';
-import banner02 from '../../images/banner/bn-2.jpg';
-import banner03 from '../../images/banner/bn-3.jpg';
+import banner02 from '../../images/banner/bn-3.jpg';
+import banner03 from '../../images/banner/bn-4.png';
 
 
 const Banner = () => {
@@ -24,33 +24,33 @@ const Banner = () => {
 
                 <div className ="item active">
                 <img src={banner01} alt="Chania" width="460" height="250"/>
-                <div className ="carousel-caption">
-                <h3>Chania</h3>
-                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                <div className ="carousel-caption ">
+                <h3>BSC Exam Preparation</h3>
+                <p>Studypress and its huge collection of regularly updated questions mean you will never run out of model exams to test yourself.</p>
                 </div>
                 </div>
 
                 <div className ="item">
                 <img src={banner02}  alt="Chania" width="460" height="250"/>
                 <div className ="carousel-caption">
-                <h3>Chania</h3>
-                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                <h3>Bank Exam Preparation</h3>
+                <p>Start with topic-based easy quizzes rather than mock tests soon after your preparation.</p>
                 </div>
                 </div>
 
                 <div className ="item">
                 <img src={banner03}  alt="Flower" width="460" height="250"/>
                 <div className ="carousel-caption">
-                <h3>Flowers</h3>
-                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                <h3>NTRC Exam Preparation</h3>
+                <p>NTRCA Assistant Teachers Exam For-mock tests soon after your preparation</p>
                 </div>
                 </div>
 
                 <div className ="item">
                 <img src={banner01}  alt="Flower" width="460" height="250"/>
                 <div className ="carousel-caption">
-                <h3>Flowers</h3>
-                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                <h3>Bank Exam Preparation</h3>
+                <p>Start with topic-based easy quizzes rather than mock tests soon after your preparation.</p>
                 </div>
                 </div>
 

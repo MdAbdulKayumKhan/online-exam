@@ -5,7 +5,8 @@ import Home from './components/Home/Home';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
-import NavItems from './components/NavItems/NavItems';
+import FAQ from './components/FAQ/FAQ';
+
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/faq">
+            <FAQ></FAQ>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

@@ -1,5 +1,9 @@
 .banner{
     font-size: 30px;
+    
+}
+.moto{
+    color: lightskyblue !important;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
