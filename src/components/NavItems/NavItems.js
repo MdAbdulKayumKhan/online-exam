@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../images/logo/logo.jpg';
+import './NavItems.css';
 
 const NavItems = () => {
     return (
-        <div>
+        <div className="nav-items">
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                 <div className="container-fluid">
                     <Link to="" className="navbar-brand"><img src={logo} alt="" width="40" height="34" /></Link>

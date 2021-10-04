@@ -1,33 +1,71 @@
 import React from 'react';
+import './Banner.css';
+import banner01 from '../../images/banner/banner-01.jpg';
+import banner02 from '../../images/banner/bn-2.jpg';
+import banner03 from '../../images/banner/bn-3.jpg';
+
 
 const Banner = () => {
     return (
-        <div>
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div className="banner">
+            <div className="container-fluid">
+                
+                <div id="myCarousel" className ="carousel slide" data-ride="carousel">
+                {/* <!--Indicators--> */}
+                <ol className ="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" className ="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                {/* <!--Wrapper for slides--> */}
+                <div className ="carousel-inner" role="listbox">
+
+                <div className ="item active">
+                <img src={banner01} alt="Chania" width="460" height="250"/>
+                <div className ="carousel-caption">
+                <h3>Chania</h3>
+                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
                 </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="..." className="d-block w-100" alt="..."/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..."/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..."/>
-                    </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+
+                <div className ="item">
+                <img src={banner02}  alt="Chania" width="460" height="250"/>
+                <div className ="carousel-caption">
+                <h3>Chania</h3>
+                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                </div>
+                </div>
+
+                <div className ="item">
+                <img src={banner03}  alt="Flower" width="460" height="250"/>
+                <div className ="carousel-caption">
+                <h3>Flowers</h3>
+                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                </div>
+                </div>
+
+                <div className ="item">
+                <img src={banner01}  alt="Flower" width="460" height="250"/>
+                <div className ="carousel-caption">
+                <h3>Flowers</h3>
+                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                </div>
+                </div>
+
+                </div>
+
+                {/* <!--Left and right controls--> */}
+                <a className ="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span className ="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span className ="sr-only">Previous</span>
+                </a>
+                <a className ="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span className ="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span className ="sr-only">Next</span>
+                </a>
+                </div>
             </div>
         </div>
     );
