@@ -11,51 +11,30 @@ const FAQ = () => {
             <div className="container faq fs-3">
                 <Accordion defaultActiveKey="0" flush>
                     <Accordion.Item eventKey="0">
-                        <Accordion.Header> <h2>Help Center</h2> </Accordion.Header>
+                        <Accordion.Header> <h2>Special plans for teachers and Candidate</h2> </Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                            est laborum.
+                        Due to the high demand for the reduced plans and the current high demand for the support team, we can’t deliver the quality support we love to give. That’s why we decided to suspend the Teacher Owl and School Owl plans until further notice.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
-                        <Accordion.Header><h2>Tutorials</h2></Accordion.Header>
+                        <Accordion.Header><h2>How to create an Exam</h2></Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                            est laborum.
+                        The first thing you need to do is create an account. Don't have one yet? Please read how to create an account.
+
+Once you've done that, you'll see some options on your dashboard. For all accounts, you can create Courses, Quizzes, Exams, and Assessments. If you're not sure which format is the best option, please look
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
-                        <Accordion.Header><h2>Knowledge Center</h2></Accordion.Header>
+                        <Accordion.Header><h2>How to create a Quiz</h2></Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                            est laborum.
+                        Once you've done that, you'll see some options on your dashboard. For all accounts you have the possibility of creating Courses, plus three types of tests – Quizzes, Exams and Assessments. If you're not sure which format is the best option for you, please take a look at this article.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
-                        <Accordion.Header><h2>Get in touch</h2></Accordion.Header>
+                        <Accordion.Header><h2>How to prevent cheating in an Exam</h2></Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                            est laborum.
+                        Taking online tests increases the chance of cheating in comparison with paper testing. What can you do to prevent students from online cheating? Preventing students from cheating seems to be impossible with all the advanced technology out there today. Here are some tips and tricks that will help prevent cheating.
+
                         </Accordion.Body>
                     </Accordion.Item>
                     

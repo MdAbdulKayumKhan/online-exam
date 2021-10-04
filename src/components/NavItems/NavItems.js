@@ -9,7 +9,7 @@ const NavItems = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                 <div className="container-fluid">
                     <Link to="" className="navbar-brand"><img src={logo} alt="" width="90" height="50" /> </Link>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 fs-4 ">
                             <li className="nav-item">
                                 <Link to="/home" className="nav-link active text-white">Home</Link>
